@@ -75,6 +75,7 @@
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@+id/numberPicker">
         <TextView
+            android:id="@+id/tv_number1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1"
@@ -86,6 +87,7 @@
             android:background="@drawable/number_circle"
             />
         <TextView
+            android:id="@+id/tv_number2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1"
@@ -97,6 +99,7 @@
             android:background="@drawable/number_circle"
             />
         <TextView
+            android:id="@+id/tv_number3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1"
@@ -108,6 +111,7 @@
             android:background="@drawable/number_circle"
             />
         <TextView
+            android:id="@+id/tv_number4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1"
@@ -119,6 +123,7 @@
             android:background="@drawable/number_circle"
             />
         <TextView
+            android:id="@+id/tv_number5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1"
@@ -130,6 +135,7 @@
             android:background="@drawable/number_circle"
             />
         <TextView
+            android:id="@+id/tv_number6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1"
@@ -143,7 +149,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/bnt_generate"
+        android:id="@+id/btn_generate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
@@ -162,5 +168,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/bnt_generate" />
+        app:layout_constraintStart_toEndOf="@+id/btn_generate" />
 </androidx.constraintlayout.widget.ConstraintLayout>
