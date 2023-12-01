@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="numberpicker_solid">#009FD1</color>
+    <color name="nunmberpicker_background">#8DC21F</color>
+
+    <color name="bg_color">#014DA0</color>
+
+    <color name="number_color1">#FFC107</color>
+    <color name="number_color2">#03A9F4</color>
+    <color name="number_color3">#FF5722</color>
+    <color name="number_color4">#8E8E8E</color>
+    <color name="number_color5">#8BC34A</color>
+</resources>
